@@ -1,0 +1,21 @@
+<md-card class="single-event">
+    <img ng-src="{{challenge.image}}" class="md-card-image" alt="Washed Out">
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">#{{challenge.name}}</span>
+            <span class="md-subhead">@{{challenge.sponsor}}</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+        <p>
+            {{challenge.description}}
+        </p>
+        <span ng-repeat="tag in challenge.tags"> #{{tag}}</span>
+        <md-slider ng-disabled="true" min="0" max="100" class="greed-slider" ng-model="challenge.ttl"></md-slider>
+    </md-card-content>
+    <md-card-actions layout="row" layout-align="end center">
+        <md-button>Share</md-button>
+        <span flex></span>
+        <md-button>assign</md-button>
+    </md-card-actions>
+</md-card>

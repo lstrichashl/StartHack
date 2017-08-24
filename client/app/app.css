@@ -2,10 +2,24 @@
 
 .menu {
   list-style: none;
-  border-top: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+  padding: 0;
+  width: 100%;
+  background-color: #9FEBE9;
+}
 
+.single-event {
+  height: 75%;
+}
+
+.topbar {
+  border-bottom: 0.1em solid black;
+  top: 0.5em;
+}
+
+.footer {
+  border-top: 0.1em solid black;
+  bottom: 0.5em;
+  position: fixed;
 }
 
 .menu > li {
@@ -26,10 +40,19 @@ html, body {
 }
 .page-wrap {
   min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -50px;
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
+
+
+
+
+/*.greed-slider .md-thumb:after, .greed-slider .md-track{*/
+  /*background-color: greenyellow !important;*/
+  /*border-color: greenyellow !important;*/
+/*}*/
+/*.greed-slider .md-focus-thumb, .greed-slider .md-focus-ring{*/
+  /*background-color: greenyellow;*/
+/*}*/

@@ -1,4 +1,8 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-</p>
+<div>
+  <nav class="menu topbar">
+    <li><md-button>recommended</md-button></li>
+    <li><md-button>Near you</md-button></li>
+    <li><md-button>Global</md-button></li>
+  </nav>
+  <challenge ng-repeat="ch in challenges" challenge="ch"></challenge>
+</div>
