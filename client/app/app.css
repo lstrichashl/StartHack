@@ -49,10 +49,84 @@ html, body {
 
 
 
-/*.greed-slider .md-thumb:after, .greed-slider .md-track{*/
-  /*background-color: greenyellow !important;*/
-  /*border-color: greenyellow !important;*/
-/*}*/
-/*.greed-slider .md-focus-thumb, .greed-slider .md-focus-ring{*/
-  /*background-color: greenyellow;*/
-/*}*/
+
+
+
+
+._3fdmx {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 30px;
+  border-bottom: none;
+  margin-bottom: 24px;
+  padding-bottom: 0;
+  flex-direction: row;
+  -webkit-box-orient: horizontal;    display: flex;
+}
+
+._b0acm{
+  margin-right: 28px;
+  flex-shrink: 0;
+}
+
+._qdmzb{
+  height: 77px;
+  width: 77px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+._l8yre{
+  background-color: #fafafa;
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+._o6mpc{
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 0;
+  color: #262626;
+}
+
+._pws6z {
+
+  justify-content: space-around;
+  margin-bottom: 12px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;    list-style: none;
+}
+
+._573jb{
+  font-size: 14px;
+  text-align: center;
+  width: 33.3%;
+}
+
+._t98z6{
+  color: inherit;
+  text-decoration: none;
+}
+._sf8d3{
+
+  text-align: center;
+  color: #999;
+}
+
+._he56w{
+  display: block;
+}
+
+._fd86t{
+
+  color: #262626;
+  font-weight: 600;
+}

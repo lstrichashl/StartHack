@@ -21,24 +21,46 @@
     <!--</md-card-actions>-->
 <!--</md-card>-->
 
-<md-card ng-click="moveToChallenge(challenge.name)">
-    <img ng-src="{{challenge.image}}" class="md-card-image" alt="">
+<md-card>
+    <img  ng-click="moveToChallenge(challenge.name)" ng-src="{{challenge.image}}" class="md-card-image" alt="">
     <md-card-title>
         <md-card-title-text>
             <span class="md-headline">#{{challenge.name}}</span>
-            <span class="md-subhead">@{{challenge.sponsor}}</span>
+            <span class="md-subhead">sponsor by @{{challenge.sponsor}}</span>
         </md-card-title-text>
     </md-card-title>
     <md-card-content>
         <p ng-show="isFull">
             {{challenge.description}}
         </p>
-        <p ng-show="!isFull">
-            {{challenge.miniDescription}}
-        </p>
         <br/>
         <span ng-repeat="tag in challenge.tags"> <a href="#"> #{{tag}}</a></span>
         <md-slider ng-disabled="true" min="0" max="100"  aria-label="red" ng-model="challenge.ttl"></md-slider>
+
+        <ul class=" _pws6z">
+            <li class=" _573jb">
+        <span class="_t98z6 _sf8d3">
+            <span class="_fd86t _he56w" style="color: #05AF3C">{{challenge.done}}</span> donated
+        </span>
+            </li>
+            <li class=" _573jb">
+                <a class="_t98z6 _sf8d3" href="#">
+                    <span class="_fd86t _he56w" style="color: #05AF3C">{{challenge.raisedMoney}}</span> raised money
+                </a>
+            </li>
+            <li class=" _573jb">
+                <a class="_t98z6 _sf8d3" href="#"><!-- react-text: 1435 --><!-- /react-text -->
+                    <span class="_fd86t _he56w">{{challenge.hoursToGo}}</span>hours to go
+                </a>
+            </li>
+            <li class=" _573jb">
+                <md-button class="md-icon-button" aria-label="Favorite">
+                    <md-icon md-svg-icon="static/info.svg"></md-icon>
+                </md-button>
+            </li>
+        </ul>
+
+
     </md-card-content>
     <md-card-actions ng-show="isFull" layout="row" layout-align="end center">
         <md-card-actions layout="row" layout-align="end center">

@@ -23,6 +23,8 @@
 
     function challengeCtrl($scope, $location) {
         $scope.challenge.ttl = $scope.challenge.done * 100/$scope.challenge.goal;
+        $scope.challenge.hoursToGo = Math.round(($scope.challenge.deadLine - Date.now()) / 1000 / 60 / 60);
+        $scope.challenge.raisedMoney = Math.round($scope.challenge.done * 4) + '$';
         $scope.moveToChallenge = function(challengeName){
             $location.path('/event/' + challengeName);
         }
