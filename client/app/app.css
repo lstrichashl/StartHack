@@ -2,17 +2,10 @@
 
 .menu {
   list-style: none;
-  border-bottom: 0.1em solid black;
+  border-top: 0.1em solid black;
   margin-bottom: 2em;
   padding: 0 0 0.5em;
-}
 
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
 }
 
 .menu > li {
@@ -22,4 +15,21 @@
 .menu > li + li:before {
   content: "|";
   padding-right: 0.3em;
+}
+
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
 }
