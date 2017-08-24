@@ -22,21 +22,19 @@
 <!--</md-card>-->
 
 <md-card>
+    <md-icon viewBox="0 0 60 55" class="asdf" ng-show="challenge.complitedUsers.indexOf('lior_strichash') != -1" md-svg-icon="static/done.svg"></md-icon>
     <img  ng-click="moveToChallenge(challenge.name)" ng-src="{{challenge.image}}" class="md-card-image" alt="">
-    <md-card-title>
-        <md-card-title-text>
-            <span class="md-headline">#{{challenge.name}}</span>
-            <span class="md-subhead">sponsor by @{{challenge.sponsor}}</span>
-        </md-card-title-text>
-    </md-card-title>
+    <span class="md-subhead">sponsors: @{{challenge.sponsor}}</span>
+    <!--<md-card-title>-->
+        <!--<md-card-title-text>-->
+        <!--</md-card-title-text>-->
+    <!--</md-card-title>-->
     <md-card-content>
         <p ng-show="isFull">
             {{challenge.description}}
         </p>
-        <br/>
         <span ng-repeat="tag in challenge.tags"> <a href="#"> #{{tag}}</a></span>
         <md-slider ng-disabled="true" min="0" max="100"  aria-label="red" ng-model="challenge.ttl"></md-slider>
-
         <ul class=" _pws6z">
             <li class=" _573jb">
         <span class="_t98z6 _sf8d3">
@@ -50,7 +48,7 @@
             </li>
             <li class=" _573jb">
                 <a class="_t98z6 _sf8d3" href="#"><!-- react-text: 1435 --><!-- /react-text -->
-                    <span class="_fd86t _he56w">{{challenge.hoursToGo}}</span>hours to go
+                    <span class="_fd86t _he56w">{{challenge.daysToGo}}</span>days to go
                 </a>
             </li>
             <li class=" _573jb">
@@ -66,7 +64,7 @@
         <md-card-actions layout="row" layout-align="end center">
             <md-button>Share</md-button>
             <span flex></span>
-            <md-button>assign</md-button>
+            <md-button ng-click="assign(challenge)">assign</md-button>
         </md-card-actions>
         <!--<md-button class="md-icon-button" aria-label="Favorite">-->
             <!--<md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>-->

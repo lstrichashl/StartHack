@@ -1,0 +1,38 @@
+<md-dialog>
+    <form ng-cloak>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>Post</h2>
+            </div>
+        </md-toolbar>
+        <md-input-container>
+            <label>Name</label>
+            <input type="text" ng-model="post.challengeName">
+        </md-input-container>
+        <md-input-container>
+            <label>Say Something</label>
+            <input type="text" ng-model="post.description">
+        </md-input-container>
+        <md-input-container>
+            <label>Pass it forward</label>
+            <input type="text" ng-model="post.forward">
+        </md-input-container>
+        <img style="max-height:200px" ng-src="{{post.media}}" alt=""/>
+        <md-dialog-actions ng-hide="post.media" layout="row" layout-align="center">
+            <md-button ng-click="uploadMedia()" class="md-fab md-raised md-mini">
+                <md-icon md-svg-icon="static/camera.svg"></md-icon>
+            </md-button>
+        </md-dialog-actions>
+        <md-dialog-actions ng-show="post.media" layout="row" layout-align="center">
+            <md-button class="md-fab md-raised md-mini">
+                <md-icon md-svg-src="static/twitter.svg"></md-icon>
+            </md-button>
+            <md-button class="md-fab md-raised md-mini">
+                <md-icon md-svg-src="static/facebook.svg"></md-icon>
+            </md-button>
+            <md-button ng-click="uploadPost(post)">
+                Post
+            </md-button>
+        </md-dialog-actions>
+    </form>
+</md-dialog>

@@ -18,7 +18,7 @@
 
 .footer {
   border-top: 0.1em solid black;
-  bottom: 0.5em;
+  bottom: 0;
   position: fixed;
 }
 
@@ -129,4 +129,22 @@ html, body {
 
   color: #262626;
   font-weight: 600;
+}
+
+.asdf {
+  position: absolute;
+  right: 9px;
+  display: inline;
+  margin: 13px;
+}
+
+.md-button.md-fab.md-raised.fast-post{
+  position: fixed;
+  bottom: 1.5em;
+  right: 50%;
+  margin-right: -25px;
+}
+
+.md-button.md-primery{
+  font-weight: bold;
 }

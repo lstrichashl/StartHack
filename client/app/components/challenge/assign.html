@@ -1,0 +1,30 @@
+<md-dialog>
+    <form ng-cloak>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>#{{challenge.name}}</h2>
+            </div>
+        </md-toolbar>
+
+        <md-dialog-content>
+            <div class="md-dialog-content">
+                {{challenge.mission}}
+            </div>
+
+            <md-slider ng-disabled="true" min="0" max="100"  aria-label="red" ng-model="challenge.ttl"></md-slider>
+        </md-dialog-content>
+
+        <md-dialog-actions layout="row">
+            <md-button target="_blank" ng-click="cancel()" md-autofocus>
+                Cancel
+            </md-button>
+            <span flex></span>
+            <md-button ng-click="">
+                24 Hours
+            </md-button>
+            <md-button ng-click="post(challenge)">
+                Post
+            </md-button>
+        </md-dialog-actions>
+    </form>
+</md-dialog>

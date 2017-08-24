@@ -22,6 +22,9 @@
   <![endif]-->
   <div class="page-wrap">
     <div ng-view></div>
+    <md-button ng-controller="fastPost" ng-click="createPost()" class="md-fab md-raised fast-post">
+      <md-icon md-svg-icon="static/camera.svg"></md-icon>
+    </md-button>
   </div>
   <nav class="menu footer">
     <li><a href="#!/home" class="md-button" style="margin: 6px 2px;">Home</a></li>
@@ -37,6 +40,7 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
   <script src="Events/challengeDB.js"></script>
+  <script src="Events/postsDB.js"></script>
   <script src="Home/home.js"></script>
   <script src="Events/events.js"></script>
   <script src="Profile/profile.js"></script>

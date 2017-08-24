@@ -40,17 +40,13 @@
             <md-card-header-text>
                 <span class="md-title">@{{profile.username}}</span>
             </md-card-header-text>
-            <md-button class="md-icon-button" aria-label="Favorite">
-                <md-icon md-svg-icon="static/done.svg"></md-icon>
-            </md-button>
+            <md-icon md-svg-icon="static/done.svg"></md-icon>
         </md-card-header>
-        <img ng-src="{{post.image}}" class="md-card-image">
+        <img ng-src="{{post.media}}" class="md-card-image">
         <md-card-title>
             <md-card-title-text>
-                <span class="md-headline">#{{post.name}}</span>
+                <span class="md-headline">#{{post.challengeName}}</span>
             </md-card-title-text>
-        </md-card-title>
-        <md-card-actions layout="row" layout-align="start center">
             <md-card-icon-actions>
                 <md-button class="md-icon-button" aria-label="Favorite">
                     <md-icon md-svg-icon="static/favorite.svg"></md-icon>
@@ -59,7 +55,7 @@
                     <md-icon md-svg-icon="static/share.svg"></md-icon>
                 </md-button>
             </md-card-icon-actions>
-        </md-card-actions>
+        </md-card-title>
         <md-card-content>
             <p>
                 {{post.description}}

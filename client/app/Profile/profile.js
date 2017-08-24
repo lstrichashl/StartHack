@@ -6,13 +6,13 @@ angular.module('myApp')
             controller: 'profileCtrl'
         });
     }])
-    .controller('profileCtrl', ['$scope', 'challengeDB',function($scope, challengeDB) {
+    .controller('profileCtrl', ['$scope', 'postsDB',function($scope, postsDB) {
         $scope.profile = {
             username: 'lior_strichash',
             followers: 4592,
             following: 543,
-            posts: challengeDB.challenges.filter(function(cha){
-                return cha.complitedUsers.indexOf('lior_strichash') != -1;
+            posts: postsDB.posts.filter(function(post){
+                return post.user == 'lior_strichash';
             }),
             image: 'static/1905954410403422527630489170767033179457648n.jpg'
         };

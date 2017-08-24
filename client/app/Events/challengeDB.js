@@ -10,15 +10,15 @@
         return {
             challenges: [
                 {
-                    name: 'challenge 1',
-                    sponsor: 'coca cola',
-                    deadLine: new Date('October 13, 2017 11:13:00'),
+                    name: 'braidonate',
+                    sponsor: 'pantene',
+                    deadLine: new Date('September 6, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 750,
-                    image: 'static/36b246b8-b63b-43a3-ab65-49f23687ce5a.jpg',
+                    image: 'static/a4d213a4-2898-415b-b1ea-3d28b9d14408.jpg',
                     description: 'The titles of Washed Out\'s breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene\'s musical language: feel it. It\'s a simple request, as well    ',
-                    miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
+                    mission: 'ttttt',
                     tags: [
                         'ad matai',
                         'kama od',
@@ -27,30 +27,30 @@
                     complitedUsers: ['lior_strichash']
                 },
                 {
-                    name: 'challenge 3',
+                    name: 'ice bucket challenge',
                     sponsor: 'coca cola',
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 300,
-                    image: 'static/ae83f2ed-6f79-46a3-9527-5e7d7d7e2e35.jpg',
+                    image: 'static/fd2da07c-a72d-41d8-bb6b-2e3aaa719a38.jpg',
                     description: 'eeeeee',
                     miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
                     tags: [
-                        'ad matai',
-                        'kama od',
+                        'ALS',
+                        'ice bucket',
                         'fun'
                     ],
-                    complitedUsers: ['lior_strichash']
+                    complitedUsers: ['']
                 },
                 {
-                    name: 'challenge 4',
+                    name: 'NY4U',
                     sponsor: 'coca cola',
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 100,
-                    image: 'static/dafd11d6-771b-4f37-bc5b-4b1a4ebd7272.jpg',
+                    image: 'static/fd545e21-0a5a-4f3e-93db-498c5558bc50.jpg',
                     description: 'eeeeee',
                     miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
                     tags: [
@@ -61,13 +61,13 @@
                     complitedUsers: ['']
                 },
                 {
-                    name: 'challenge 5',
+                    name: 'PCAfrica',
                     sponsor: 'coca cola',
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 750,
-                    image: 'static/1906759e-3c8d-4efc-9183-4d96337845aa.jpg',
+                    image: 'static/cf7579d8-9c35-4b18-9755-504449729fcc.jpg',
                     description: 'eeeeee',
                     miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
                     tags: [
@@ -75,16 +75,16 @@
                         'kama od',
                         'fun'
                     ],
-                    complitedUsers: ['lior_strichash']
+                    complitedUsers: ['']
                 },
                 {
-                    name: 'challenge 6',
+                    name: 'Rollin',
                     sponsor: 'coca cola',
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 0,
-                    image: 'static/77a31d5f-a35d-4206-af78-84e69183d1e5.jpg',
+                    image: 'static/551ef593-a8e3-4526-ace8-8cfb1c70f210.jpg',
                     description: 'eeeeee',
                     miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
                     tags: [
@@ -101,7 +101,7 @@
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 0,
-                    image: 'static/b8e481cd-9a3a-4cfe-a9e0-a3d7ae32b7e9.jpg',
+                    image: 'static/706c7c8f-e425-4afe-bb54-9a7d0bfe4dbf.jpg',
                     description: 'eeeeee',
                     miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
                     tags: [
