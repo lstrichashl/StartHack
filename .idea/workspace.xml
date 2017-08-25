@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34fb92a0-38e1-49f2-b90f-fc13a0482ece" name="Default" comment="finish">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/Events/DB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/news/news.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/news/news.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/components/post/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/components/post/post.js" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\Events\challengeDB.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\Events\postsDB.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\1906759e-3c8d-4efc-9183-4d96337845aa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\2c317634-b686-4a4e-8d7b-99d014044326.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\306af541-786f-4d4a-91ea-2e021b29fc78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\77a31d5f-a35d-4206-af78-84e69183d1e5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\ae83f2ed-6f79-46a3-9527-5e7d7d7e2e35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\dafd11d6-771b-4f37-bc5b-4b1a4ebd7272.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\StartHack\client\app\static\rolling1.gif" afterPath="" />
       <change type="MOVED" beforePath="C:\workspace\StartHack\client\app\Events\Events.js" afterPath="$PROJECT_DIR$/client/app/Events/events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/Events/DB.js" afterPath="$PROJECT_DIR$/client/app/Events/DB.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.css" afterPath="$PROJECT_DIR$/client/app/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/challenge/assign.html" afterPath="$PROJECT_DIR$/client/app/components/challenge/assign.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/challenge/challenge.html" afterPath="$PROJECT_DIR$/client/app/components/challenge/challenge.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/challenge/challenge.js" afterPath="$PROJECT_DIR$/client/app/components/challenge/challenge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/Events/event.html" afterPath="$PROJECT_DIR$/client/app/Events/event.html" />
-      <change type="MODIFICATION" beforePath="C:\workspace\StartHack\client\app\Home\home.html" afterPath="$PROJECT_DIR$/client/app/Home/home.html" />
-      <change type="MODIFICATION" beforePath="C:\workspace\StartHack\client\app\Home\home.js" afterPath="$PROJECT_DIR$/client/app/Home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/index.html" afterPath="$PROJECT_DIR$/client/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/challenge/post.html" afterPath="$PROJECT_DIR$/client/app/components/challenge/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/Profile/profile.html" afterPath="$PROJECT_DIR$/client/app/Profile/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/Profile/profile.js" afterPath="$PROJECT_DIR$/client/app/Profile/profile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StartHack.iws" />
@@ -52,8 +32,52 @@
       <file leaf-file-name="challenge.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/components/challenge/challenge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state vertical-scroll-proportion="-11.354838">
+              <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#md-button#0;n#md-card#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assign.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/components/challenge/assign.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.354838">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="challenge.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/components/challenge/challenge.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/Events/events.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.589286">
+              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+              <folding>
+                <element signature="e#2672#2712#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/Events/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4193548">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -62,18 +86,8 @@
       <file leaf-file-name="DB.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/Events/DB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36243823">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/Profile/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.548387">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.76112026">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -82,8 +96,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.392857">
-              <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+            <state vertical-scroll-proportion="-2.767857">
+              <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -102,8 +116,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.354838">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state vertical-scroll-proportion="-7.935484">
+              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -148,7 +162,6 @@
         <option value="$PROJECT_DIR$/client/app/static/twitter.svg" />
         <option value="$PROJECT_DIR$/client/app/static/facebook.svg" />
         <option value="$PROJECT_DIR$/client/app/Events/events.html" />
-        <option value="$PROJECT_DIR$/client/app/components/challenge/challenge.js" />
         <option value="$PROJECT_DIR$/client/app/Events/postsDB.js" />
         <option value="$PROJECT_DIR$/client/app/Home/home.html" />
         <option value="$PROJECT_DIR$/client/app/Events/ProfileDB.js" />
@@ -159,8 +172,6 @@
         <option value="$PROJECT_DIR$/client/app/news/news.js" />
         <option value="$PROJECT_DIR$/client/app/components/post/post.html" />
         <option value="$PROJECT_DIR$/client/app/components/challenge/post.html" />
-        <option value="$PROJECT_DIR$/client/app/components/challenge/assign.html" />
-        <option value="$PROJECT_DIR$/client/app/Events/events.js" />
         <option value="$PROJECT_DIR$/client/app/Events/event.html" />
         <option value="$PROJECT_DIR$/client/app/angular-animate.js" />
         <option value="$PROJECT_DIR$/client/app/angular-animate.min.js" />
@@ -168,10 +179,13 @@
         <option value="$PROJECT_DIR$/client/app/angular-aria.min.js" />
         <option value="$PROJECT_DIR$/client/app/angular-material.min.js" />
         <option value="$PROJECT_DIR$/client/app/index.html" />
-        <option value="$PROJECT_DIR$/client/app/components/challenge/challenge.html" />
         <option value="$PROJECT_DIR$/client/app/Profile/profile.html" />
-        <option value="$PROJECT_DIR$/client/app/app.css" />
         <option value="$PROJECT_DIR$/client/app/news/news.html" />
+        <option value="$PROJECT_DIR$/client/app/app.css" />
+        <option value="$PROJECT_DIR$/client/app/components/challenge/challenge.js" />
+        <option value="$PROJECT_DIR$/client/app/components/challenge/assign.html" />
+        <option value="$PROJECT_DIR$/client/app/components/challenge/challenge.html" />
+        <option value="$PROJECT_DIR$/client/app/Events/events.js" />
         <option value="$PROJECT_DIR$/client/app/Events/DB.js" />
       </list>
     </option>
@@ -281,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Profile" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,29 +317,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StartHack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StartHack" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="homePosts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,10 +366,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,14 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/selenium-webdriver/http/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33278418">
-          <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/static/camera.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -657,26 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/Events/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4193548">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/components/post/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/challenge/challenge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -736,22 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/challenge/assign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/Events/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-71.703705">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/Events/event.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.32258">
@@ -791,7 +743,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,39 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.354838">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/challenge/challenge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/Profile/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.548387">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.392857">
-          <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -857,10 +780,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.767857">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.935484">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/Events/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4193548">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/selenium-webdriver/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278418">
+          <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/challenge/assign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/challenge/challenge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/challenge/challenge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#md-button#0;n#md-card#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/Events/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.589286">
+          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+          <folding>
+            <element signature="e#2672#2712#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/Events/DB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36243823">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.76112026">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
