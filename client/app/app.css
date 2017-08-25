@@ -189,3 +189,7 @@ span.md-subhead span {
   color: darkblue;
   font-size: 0.96em;
 }
+
+.bold{
+  font-weight: bold;
+}

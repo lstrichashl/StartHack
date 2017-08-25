@@ -6,7 +6,8 @@
 
         <md-dialog-content>
             <div class="md-dialog-content">
-                {{challenge.mission}}
+                Within 24 hours:<br/>
+                <span class="bold">{{challenge.mission}}</span>
             </div>
 
             <md-slider-container>
@@ -18,16 +19,13 @@
         </md-dialog-content>
 
         <md-dialog-actions layout="row">
-            <md-button target="_blank" ng-click="cancel()" md-autofocus>
+            <md-button ng-click="cancel()">
                 Cancel
             </md-button>
             <span flex></span>
-            <md-button ng-click="">
-                24 Hours
-            </md-button>
-            <md-button ng-click="post(challenge)">
-                Post
-            </md-button>
+            <md-buttom ng-click="acceptChallenge(challenge)">
+                Challenge Accepted!
+            </md-buttom>
         </md-dialog-actions>
     </form>
 </md-dialog>

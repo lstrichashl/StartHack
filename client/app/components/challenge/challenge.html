@@ -1,5 +1,8 @@
 <md-card ng-style="challenge.style">
     <md-icon viewBox="0 0 60 55" class="asdf" ng-show="challenge.complitedUsers.indexOf('lior_strichash') != -1" md-svg-icon="static/done.svg"></md-icon>
+    <md-button ng-show="currentWish" class="md-warn md-raised " style="position: absolute;    right: 21px;    margin-top: 19px;">
+        <span>{{countdown}}</span>
+    </md-button>
     <img  ng-click="moveToChallenge(challenge.name)" ng-src="{{challenge.image}}" class="md-card-image" alt="">
     <span class="md-subhead">sponsors: <span ng-repeat="sponsor in challenge.sponsors"> @{{sponsor}}</span></span>
     <md-card-content>
@@ -37,7 +40,8 @@
         <md-card-actions layout="row" layout-align="end center">
             <md-button>Share</md-button>
             <span flex></span>
-            <md-button ng-click="assign(challenge)">assign</md-button>
+            <md-button ng-hide="accepted" ng-click="assign(challenge)">assign</md-button>
+            <md-button ng-show="accepted" ng-click="createPost(challenge)">Post!</md-button>
         </md-card-actions>
     </md-card-actions>
 </md-card>

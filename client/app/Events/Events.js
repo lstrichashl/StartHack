@@ -1,5 +1,5 @@
 'use strict';
-
+var timer;
 angular.module('myApp')
 
 .config(['$routeProvider', function($routeProvider) {
@@ -55,6 +55,10 @@ angular.module('myApp')
                 }
               }
               DB.posts.push(post);
+              DB.profile.wishList = DB.profile.wishList.filter(function(wish){
+                return wish.challengeName == post.challengeName;
+              });
+              $interval.cancel(timer);
               DB.challenges.find(function(ch){
                 return ch.name == post.challengeName;
               }).complitedUsers.push('lior_strichash');
@@ -75,7 +79,7 @@ angular.module('myApp')
   $scope.challenges = DB.challenges;
 }])
 
-.controller('eventCtrl', ['$scope', 'DB', '$routeParams', '$mdDialog', function($scope, DB, $routeParams, $mdDialog){
+.controller('eventCtrl', ['$scope', 'DB', '$routeParams', '$mdDialog', '$interval', function($scope, DB, $routeParams, $mdDialog, $interval){
       $scope.isFull = true;
       $scope.challenge = DB.challenges.find(function(challenge){
         return challenge.name == $routeParams.name;
@@ -88,7 +92,11 @@ angular.module('myApp')
       $scope.relatedPosts = DB.posts.filter(function(post){
         return post.challengeName == $scope.challenge.name;
       });
+
       $scope.createPost = function (challenge){
+        challenge = challenge || {
+              name: ''
+            };
         $mdDialog.show({
           controller: function($scope, challenge){
             $scope.challenge = challenge;
@@ -122,7 +130,15 @@ angular.module('myApp')
                   image: forwardProfile.image
                 }
               }
-                  DB.posts.push(post);
+              DB.posts.push(post);
+              var loggedInUser = DB.profiles.find(function(pro){
+                return pro.username == 'lior_strichash';
+              });
+              loggedInUser.wishList = loggedInUser.wishList.filter(function(wish){
+                return wish.challengeName != post.challengeName;
+              });
+              thisScope.currentWish = false;
+              $interval.cancel(timer);
               DB.challenges.find(function(ch){
                 return ch.name == post.challengeName;
               }).complitedUsers.push('lior_strichash');
@@ -137,6 +153,7 @@ angular.module('myApp')
           clickOutsideToClose:true
         });
       };
+
       $scope.assign = function(challenge){
         $mdDialog.show({
           controller: function($scope, challenge){
@@ -144,9 +161,17 @@ angular.module('myApp')
             $scope.cancel = function(){
               $mdDialog.cancel();
             };
-            $scope.post = function(challenge){
-              thisScope.createPost(challenge);
-            }
+            $scope.acceptChallenge = function(challenge){
+              DB.profiles.find(function(pro){
+                return pro.username == 'lior_strichash';
+              }).wishList.push({
+                challengeName: challenge.name,
+                deadLine: new Date().setDate(new Date().getDate() + 1)
+              });
+              startTimer();
+              $mdDialog.cancel();
+              thisScope.accepted = true;
+            };
           },
           locals: {
             challenge: challenge
@@ -155,5 +180,40 @@ angular.module('myApp')
           parent: angular.element(document.body),
           clickOutsideToClose:true
         });
+      };
+      startTimer();
+      function startTimer() {
+        var loggedInUser = DB.profiles.find(function (pro) {
+          return pro.username == 'lior_strichash';
+        });
+
+        $scope.currentWish = loggedInUser.wishList.find(function (wish) {
+          return wish.challengeName == $scope.challenge.name;
+        });
+        $scope.accepted = !!$scope.currentWish;
+        if ($scope.currentWish) {
+          // Update the count down every 1 second
+          timer = $interval(function () {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = new Date($scope.currentWish.deadLine).getTime() - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            $scope.countdown = hours + ":" + minutes + ":" + seconds;
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+              $interval.cancel(timer);
+              $scope.countdown = "EXPIRED";
+            }
+          }, 1000);
+        }
       }
 }]);

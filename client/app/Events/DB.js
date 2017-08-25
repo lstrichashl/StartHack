@@ -19,9 +19,9 @@
                     description: 'Millions of women all around the world are waiting for your hair donation.Together we can help them to bring back their lost confident. Minimum braid length - 10.',
                     mission: 'Donate a 10 inch braid to your local Barbershop !',
                     tags: [
-                        'ad matai',
-                        'kama od',
-                        'fun'
+                        'cancer',
+                        'braid',
+                        'girlsPower'
                     ],
                     complitedUsers: ['lior_strichash'],
                     defaultMedia: 'static/427027fd-1102-4580-a948-c69e84813d72.jpg',
@@ -37,12 +37,12 @@
                     goal: 1000,
                     done: 300,
                     image: 'static/fd2da07c-a72d-41d8-bb6b-2e3aaa719a38.jpg',
-                    description: 'eeeeee',
-                    miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
+                    description: 'The Ice Bucket Challenge promotes awareness & money for the terrible uncured ALS disease. For every person to complete the challange - 30$ will be donated for researches to find the cure!',
+                    mission: 'Dumping of a bucket of ice and water over your head, either by another person or yourself.',
                     tags: [
                         'ALS',
-                        'ice bucket',
-                        'fun'
+                        'Wet',
+                        'SummerIsComing'
                     ],
                     complitedUsers: [''],
                     defaultMedia: 'static/91ebe24e-2baa-4620-af6d-1079ccfd2dfc.jpg',
@@ -52,7 +52,7 @@
                 },
                 {
                     name: 'NY4U',
-                    sponsors: ['coca cola'],
+                    sponsors: ['NYU'],
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
@@ -72,18 +72,16 @@
                 },
                 {
                     name: 'PCAfrica',
-                    sponsors: ['coca cola'],
+                    sponsors: ['Microsoft'],
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
                     done: 750,
                     image: 'static/cf7579d8-9c35-4b18-9755-504449729fcc.jpg',
                     description: 'eeeeee',
-                    miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
                     tags: [
-                        'ad matai',
-                        'kama od',
-                        'fun'
+                        'computers',
+                        'education'
                     ],
                     complitedUsers: [''],
                     style: {
@@ -96,14 +94,14 @@
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
-                    done: 0,
+                    done: 345,
                     image: 'static/551ef593-a8e3-4526-ace8-8cfb1c70f210.jpg',
-                    description: 'eeeeee',
-                    miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
+                    description: 'Raising wheelchairs & awareness for our disabled ! For every person to complete the challenge, 17$ will be donated for new wheelchairs for those who can\'t afford it',
+                    mission: 'Dance on a 4 wheels vehicle to the song Chamillionaire - Ridin\'!',
                     tags: [
-                        'ad matai',
-                        'kama od',
-                        'fun'
+                        'disabled',
+                        'dance',
+                        'wheelchairs'
                     ],
                     complitedUsers: ['lior_strichash'],
                     style: {
@@ -116,12 +114,16 @@
                     deadLine: new Date('October 13, 2017 11:13:00'),
                     startDate: new Date('October 13, 2015 11:13:00'),
                     goal: 1000,
-                    done: 468,
+                    done: 984,
                     image: 'static/4bc9353d-d839-41a3-8866-c569387aa30f.jpg',
-                    description: 'eeeeee',
+                    description: '1 Billion trees are chopped down every single year. For every person to complete the challenge - 5$ will be donated for saving amazon lands. Together we can save millions of trees worldwide !',
+                    mission: 'Arrange your friends and water fight !',
                     tags: [
-                        'water',
-                        'fun'
+                        'SaveThePlanet',
+                        'Wet',
+                        'GoGreen',
+                        'WaterFight',
+                        'FightForTrees'
                     ],
                     complitedUsers: [''],
                     style: {
@@ -138,8 +140,8 @@
                     image: 'static/51f039e7-d24b-4341-8b07-70298fddd4a0.jpg',
                     description: 'eeeeee',
                     tags: [
-                        'water',
-                        'fun'
+                        'hackathon',
+                        'community'
                     ],
                     complitedUsers: [''],
                     defaultMedia: 'static/ezgif-1-7e2b9316cf.gif'
@@ -176,7 +178,7 @@
                     challengeName: 'ALS ice bucket',
                     profile: {
                         username: 'tom',
-                        image: 'static/1905954410403422527630489170767033179457648n.jpg'
+                        image: 'static/tom.jpg'
                     },
                     description: 'ad matai',
                     forward: {
@@ -230,13 +232,15 @@
                     username: 'lior_strichash',
                     followers: 4592,
                     following: 543,
-                    image: 'static/1905954410403422527630489170767033179457648n.jpg'
+                    image: 'static/1905954410403422527630489170767033179457648n.jpg',
+                    wishList: []
                 },
                 {
                     username: 'tom',
                     followers: 0,
                     following: 1573,
-                    image: 'static/tom.jpg'
+                    image: 'static/tom.jpg',
+                    wishList: []
                 }
             ]
         };
