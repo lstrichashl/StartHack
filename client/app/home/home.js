@@ -9,6 +9,6 @@ angular.module('myApp')
   });
 }])
 
-.controller('homeCtrl', [function() {
-
+.controller('homeCtrl', ['$scope', 'DB', function($scope, DB) {
+    $scope.posts = DB.posts;
 }]);

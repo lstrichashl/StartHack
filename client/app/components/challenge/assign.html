@@ -1,17 +1,20 @@
 <md-dialog>
     <form ng-cloak>
-        <md-toolbar>
-            <div class="md-toolbar-tools">
-                <h2>#{{challenge.name}}</h2>
-            </div>
-        </md-toolbar>
+        <div class="md-toolbar-tools">
+            <h2>#{{challenge.name}}</h2>
+        </div>
 
         <md-dialog-content>
             <div class="md-dialog-content">
                 {{challenge.mission}}
             </div>
 
-            <md-slider ng-disabled="true" min="0" max="100"  aria-label="red" ng-model="challenge.ttl"></md-slider>
+            <md-slider-container>
+                <md-slider min="0" max="100" ng-model="challenge.ttl"></md-slider>
+                <md-input-container>
+                    <input disabled flex type="text" ng-model="challenge.ttlPercentage">
+                </md-input-container>
+            </md-slider-container>
         </md-dialog-content>
 
         <md-dialog-actions layout="row">

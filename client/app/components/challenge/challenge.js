@@ -23,6 +23,7 @@
 
     function challengeCtrl($scope, $location) {
         $scope.challenge.ttl = $scope.challenge.done * 100/$scope.challenge.goal;
+        $scope.challenge.ttlPercentage = $scope.challenge.ttl + '%';
         $scope.challenge.daysToGo = Math.round(($scope.challenge.deadLine - Date.now()) / 1000 / 60 / 60 / 24);
         $scope.challenge.raisedMoney = Math.round($scope.challenge.done * 4) + '$';
         $scope.moveToChallenge = function(challengeName){

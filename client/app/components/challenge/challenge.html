@@ -1,44 +1,24 @@
-<!--<md-card ng-click="moveToChallenge(challenge.name)">-->
-    <!--<md-card-title>-->
-        <!--<md-card-title-text>-->
-            <!--<span class="md-headline">#{{challenge.name}}</span>-->
-            <!--<span class="md-subhead">{{challenge.sponsor}}</span>-->
-        <!--</md-card-title-text>-->
-        <!--<md-card-title-media>-->
-            <!--<div class="md-media-md card-media">-->
-                <!--<img ng-src="{{challenge.image}}" alt=""/>-->
-            <!--</div>-->
-        <!--</md-card-title-media>-->
-    <!--</md-card-title>-->
-    <!--<md-card-content>-->
-        <!--{{challenge.description}}-->
-        <!--<div>-->
-            <!--<span ng-repeat="tag in challenge.tags"> #{{tag}}</span>-->
-        <!--</div>-->
-    <!--</md-card-content>-->
-    <!--<md-card-actions layout="row" layout-align="center">-->
-        <!--<md-button>share</md-button>-->
-    <!--</md-card-actions>-->
-<!--</md-card>-->
-
-<md-card>
+<md-card ng-style="challenge.style">
     <md-icon viewBox="0 0 60 55" class="asdf" ng-show="challenge.complitedUsers.indexOf('lior_strichash') != -1" md-svg-icon="static/done.svg"></md-icon>
     <img  ng-click="moveToChallenge(challenge.name)" ng-src="{{challenge.image}}" class="md-card-image" alt="">
-    <span class="md-subhead">sponsors: @{{challenge.sponsor}}</span>
-    <!--<md-card-title>-->
-        <!--<md-card-title-text>-->
-        <!--</md-card-title-text>-->
-    <!--</md-card-title>-->
+    <span class="md-subhead">sponsors: <span ng-repeat="sponsor in challenge.sponsors"> @{{sponsor}}</span></span>
     <md-card-content>
         <p ng-show="isFull">
             {{challenge.description}}
         </p>
         <span ng-repeat="tag in challenge.tags"> <a href="#"> #{{tag}}</a></span>
-        <md-slider ng-disabled="true" min="0" max="100"  aria-label="red" ng-model="challenge.ttl"></md-slider>
+        <div>
+        <md-slider-container>
+            <md-slider min="0" max="100" ng-model="challenge.ttl"></md-slider>
+            <md-input-container>
+                <input disabled flex type="text" ng-model="challenge.ttlPercentage">
+            </md-input-container>
+        </md-slider-container>
+        </div>
         <ul class=" _pws6z">
             <li class=" _573jb">
         <span class="_t98z6 _sf8d3">
-            <span class="_fd86t _he56w" style="color: #05AF3C">{{challenge.done}}</span> donated
+            <span class="_fd86t _he56w" style="color: #05AF3C">{{challenge.done}}</span> Peaple
         </span>
             </li>
             <li class=" _573jb">
@@ -51,14 +31,7 @@
                     <span class="_fd86t _he56w">{{challenge.daysToGo}}</span>days to go
                 </a>
             </li>
-            <li class=" _573jb">
-                <md-button class="md-icon-button" aria-label="Favorite">
-                    <md-icon md-svg-icon="static/info.svg"></md-icon>
-                </md-button>
-            </li>
         </ul>
-
-
     </md-card-content>
     <md-card-actions ng-show="isFull" layout="row" layout-align="end center">
         <md-card-actions layout="row" layout-align="end center">
@@ -66,14 +39,7 @@
             <span flex></span>
             <md-button ng-click="assign(challenge)">assign</md-button>
         </md-card-actions>
-        <!--<md-button class="md-icon-button" aria-label="Favorite">-->
-            <!--<md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>-->
-        <!--</md-button>-->
-        <!--<md-button class="md-icon-button" aria-label="Settings">-->
-            <!--<md-icon md-svg-icon="img/icons/menu.svg"></md-icon>-->
-        <!--</md-button>-->
-        <!--<md-button class="md-icon-button" aria-label="Share">-->
-            <!--<md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>-->
-        <!--</md-button>-->
     </md-card-actions>
 </md-card>
+
+<post ng-repeat="post in relatedPosts" post="post"></post>

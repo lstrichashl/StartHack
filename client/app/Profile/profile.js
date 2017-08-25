@@ -6,14 +6,15 @@ angular.module('myApp')
             controller: 'profileCtrl'
         });
     }])
-    .controller('profileCtrl', ['$scope', 'postsDB',function($scope, postsDB) {
-        $scope.profile = {
-            username: 'lior_strichash',
-            followers: 4592,
-            following: 543,
-            posts: postsDB.posts.filter(function(post){
-                return post.user == 'lior_strichash';
-            }),
-            image: 'static/1905954410403422527630489170767033179457648n.jpg'
-        };
+    .controller('profileCtrl', ['$scope', 'DB',function($scope, DB) {
+        $scope.profile = DB.profiles.find(function(pro){
+            return pro.username == 'lior_strichash';
+        });
+        $scope.posts = DB.posts.filter(function(post){
+            return post.profile.username == 'lior_strichash';
+        });
+        $scope.posts = $scope.posts.map(function(post){
+            post.donated = true;
+            return post;
+        });
     }]);

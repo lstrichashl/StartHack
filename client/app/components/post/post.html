@@ -1,0 +1,38 @@
+<md-card>
+    <md-card-header>
+        <md-card-avatar>
+            <img class="md-user-avatar" ng-src="{{post.profile.image}}"/>
+        </md-card-avatar>
+        <md-card-header-text>
+            <span class="md-title">@{{post.profile.username}}</span>
+        </md-card-header-text>
+    </md-card-header>
+    <md-card-content>
+        <p>
+            {{post.description}}
+        </p>
+    </md-card-content>
+    <img ng-src="{{post.media}}" class="md-card-image">
+    <md-card-title>
+        <md-card-title-text>
+            <md-button ng-click="moveToChallenge(post.challengeName)">
+                <md-icon ng-show="isUserDonate(post.challengeName)" md-svg-icon="static/done.svg"></md-icon>
+                <span class="md-headline">#{{post.challengeName}}</span>
+            </md-button>
+            <md-card-avatar>
+                <img class="md-user-avatar" ng-src="{{post.forward.image}}"/>
+                <span>@{{post.forward.username}}</span>
+            </md-card-avatar>
+        </md-card-title-text>
+        <md-card-icon-actions>
+            <md-button class="md-icon-button" aria-label="Favorite">
+                <md-icon md-svg-icon="static/favorite.svg"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="Share">
+                <md-icon md-svg-icon="static/share.svg"></md-icon>
+            </md-button>
+        </md-card-icon-actions>
+    </md-card-title>
+    <md-card-content>
+    </md-card-content>
+</md-card>
