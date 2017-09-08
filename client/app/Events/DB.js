@@ -58,12 +58,10 @@
                     goal: 1000,
                     done: 100,
                     image: 'static/fd545e21-0a5a-4f3e-93db-498c5558bc50.jpg',
-                    description: 'eeeeee',
-                    miniDescription: 'The titles of Washed Out\'s breakthrough song ...',
+                    description: 'raising money for old people',
+                    mission: 'come and buy our cakes',
                     tags: [
-                        'ad matai',
-                        'kama od',
-                        'fun'
+                        'old'
                     ],
                     complitedUsers: [''],
                     style: {
@@ -78,7 +76,8 @@
                     goal: 1000,
                     done: 750,
                     image: 'static/cf7579d8-9c35-4b18-9755-504449729fcc.jpg',
-                    description: 'eeeeee',
+                    description: 'donate computers to poor villages in africa',
+                    mission: 'take a picture with your windows pc',
                     tags: [
                         'computers',
                         'education'
@@ -138,7 +137,8 @@
                     goal: 1000,
                     done: 468,
                     image: 'static/51f039e7-d24b-4341-8b07-70298fddd4a0.jpg',
-                    description: 'eeeeee',
+                    description: '',
+                    mission: 'come to our hackathon',
                     tags: [
                         'hackathon',
                         'community'
@@ -154,7 +154,7 @@
                         username: 'lior_strichash',
                         image: 'static/1905954410403422527630489170767033179457648n.jpg'
                     },
-                    description: 'ad matai',
+                    description: 'donated!',
                     forward: {
                         username: 'tom',
                         image: 'static/tom.jpg'
@@ -167,7 +167,7 @@
                         username: 'tom',
                         image: 'static/tom.jpg'
                     },
-                    description: 'ad matai',
+                    description: 'check out my new haircut',
                     forward: {
                         username: 'lior_strichash',
                         image: 'static/1905954410403422527630489170767033179457648n.jpg'
@@ -180,7 +180,7 @@
                         username: 'tom',
                         image: 'static/tom.jpg'
                     },
-                    description: 'ad matai',
+                    description: 'so colddddddd',
                     forward: {
                         username: 'lior_strichash',
                         image: 'static/1905954410403422527630489170767033179457648n.jpg'
@@ -193,7 +193,7 @@
                         username: 'tom',
                         image: 'static/tom.jpg'
                     },
-                    description: 'ad matai',
+                    description: '10 inchh',
                     forward: {
                         username: 'lior_strichash',
                         image: 'static/1905954410403422527630489170767033179457648n.jpg'
@@ -206,7 +206,7 @@
                         username: 'lior_strichash',
                         image: 'static/1905954410403422527630489170767033179457648n.jpg'
                     },
-                    description: 'ad matai',
+                    description: 'They see me rollin\', they hatin',
                     forward: {
                         username: 'tom',
                         image: 'static/tom.jpg'
@@ -219,7 +219,7 @@
                         username: 'tom',
                         image: 'static/tom.jpg'
                     },
-                    description: 'ad matai',
+                    description: 'thank you NYU',
                     forward: {
                         username: 'lior_strichash',
                         image: 'static/1905954410403422527630489170767033179457648n.jpg'
